@@ -15,13 +15,13 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
     <header className="relative z-20 border-b border-brand-black-border bg-brand-black/80 backdrop-blur-md">
       <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
         {/* Logo */}
-        <div className="flex items-center gap-3 shrink-0">
-          <div className="w-11 h-11 rounded-xl bg-white overflow-hidden shrink-0 flex items-center justify-center">
+        <div className="flex items-center gap-1 shrink-0">
+          <div className="w-16 h-16 rounded-xl bg-transparent overflow-hidden shrink-0 flex items-center justify-center">
             <Image
               src="/Logo.png"
               alt="SAVOR.AI"
-              width={44}
-              height={44}
+              width={57}
+              height={57}
               className="object-contain"
               priority
             />
